@@ -92,7 +92,13 @@ We provide the script to train the model of the `online` and `unconstrained` set
 * Training with 1 GPU:
 
   ```
+  # NTU RGB+D 120 Dataset
   python -m train.train_mdm --setting cmdm --save_dir save/cmdm/ntu_smplx --dataset ntu --cond_mask_prob 0 --num_person 2 --layers 8 --num_frames 60 --arch online --overwrite --pose_rep rot6d --body_model smplx --data_path PATH/TO/xsub.train.h5 --train_platform_type TensorboardPlatform --vel_threshold 0.03 --unconstrained
+  ```
+
+  ```
+  # Chi3D dataset
+  python -m train.train_mdm --setting cmdm --save_dir save/cmdm/chi3d_smplx --dataset chi3d --cond_mask_prob 0 --num_person 2 --layers 8 --num_frames 150 --arch online --overwrite --pose_rep rot6d --body_model smplx --data_path PATH/TO/chi3d_smplx_train.h5 --train_platform_type TensorboardPlatform --vel_threshold 0.01 --unconstrained
   ```
 
 * Training with multiple GPUs (4 GPUs in the example):
