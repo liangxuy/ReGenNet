@@ -1,0 +1,8 @@
+Grab
+Handshake
+Hit
+HoldingHands
+Hug
+Kick
+Posing
+Push
