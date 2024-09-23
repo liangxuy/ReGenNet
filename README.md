@@ -11,9 +11,9 @@
   </a>
   <a href='https://liangxuy.github.io/ReGenNet/'>
   <img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'></a>
-  <!-- <a href="" target='_blank'>
+  <a href="" target='_blank'>
     <img src="https://visitor-badge.laobi.icu/badge?page_id=liangxuy.ReGenNet&left_color=gray&right_color=orange">
-  </a> -->
+  </a>
 </p>
 
 This repository contains the content of the following paper:
